@@ -1,7 +1,7 @@
 image: "gcc"
 
 before_script:
-  make
+  - make
 
 project1:
   script:
