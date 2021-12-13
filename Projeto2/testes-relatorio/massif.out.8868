@@ -1,0 +1,917 @@
+desc: (none)
+cmd: ../proj2
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=790914
+mem_heap_B=133024
+mem_heap_extra_B=5248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=1322230
+mem_heap_B=142752
+mem_heap_extra_B=7680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2071704
+mem_heap_B=153184
+mem_heap_extra_B=10288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=3007161
+mem_heap_B=163616
+mem_heap_extra_B=12896
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=3645129
+mem_heap_B=169760
+mem_heap_extra_B=14432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=4502079
+mem_heap_B=177184
+mem_heap_extra_B=16288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=5522289
+mem_heap_B=185120
+mem_heap_extra_B=18272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=6090961
+mem_heap_B=189216
+mem_heap_extra_B=19296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=7155129
+mem_heap_B=196384
+mem_heap_extra_B=21088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=7720141
+mem_heap_B=199968
+mem_heap_extra_B=21984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=8685105
+mem_heap_B=205792
+mem_heap_extra_B=23440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=9469745
+mem_heap_B=240032
+mem_heap_extra_B=32000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=10501374
+mem_heap_B=327584
+mem_heap_extra_B=53888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=11533003
+mem_heap_B=415136
+mem_heap_extra_B=75776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=12564632
+mem_heap_B=502688
+mem_heap_extra_B=97664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=13725607
+mem_heap_B=596064
+mem_heap_extra_B=121008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=14503410
+mem_heap_B=623648
+mem_heap_extra_B=127904
+mem_stacks_B=0
+heap_tree=detailed
+n6: 623648 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 207776 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 15776 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n2: 207744 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 15744 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4112 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=15095839
+mem_heap_B=644384
+mem_heap_extra_B=133088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=15885692
+mem_heap_B=672032
+mem_heap_extra_B=140000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=16478121
+mem_heap_B=692768
+mem_heap_extra_B=145184
+mem_stacks_B=0
+heap_tree=detailed
+n6: 692768 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 242336 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 50336 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n2: 242304 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 50304 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4112 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=17268739
+mem_heap_B=720416
+mem_heap_extra_B=152096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=18457461
+mem_heap_B=760352
+mem_heap_extra_B=162080
+mem_stacks_B=0
+heap_tree=detailed
+n6: 760352 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 276128 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 84128 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n2: 276096 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 84096 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4112 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=19250668
+mem_heap_B=786976
+mem_heap_extra_B=168736
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=19845828
+mem_heap_B=806752
+mem_heap_extra_B=173680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=20440941
+mem_heap_B=826528
+mem_heap_extra_B=178624
+mem_stacks_B=0
+heap_tree=detailed
+n6: 826528 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 309216 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 21216 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n3: 309184 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 21184 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4112 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=21036101
+mem_heap_B=846304
+mem_heap_extra_B=183568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=21631214
+mem_heap_B=866080
+mem_heap_extra_B=188512
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=22424677
+mem_heap_B=892448
+mem_heap_extra_B=195104
+mem_stacks_B=0
+heap_tree=detailed
+n6: 892448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 342176 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 54176 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n3: 342144 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 54144 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4112 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=23019837
+mem_heap_B=912224
+mem_heap_extra_B=200048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=23614950
+mem_heap_B=932000
+mem_heap_extra_B=204992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=24408413
+mem_heap_B=958368
+mem_heap_extra_B=211584
+mem_stacks_B=0
+heap_tree=detailed
+n6: 958368 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 375136 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 87136 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n3: 375104 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 87104 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4112 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=24928455
+mem_heap_B=975648
+mem_heap_extra_B=215904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=25968382
+mem_heap_B=1010208
+mem_heap_extra_B=224544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=26488424
+mem_heap_B=1027488
+mem_heap_extra_B=228864
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=27268432
+mem_heap_B=1053408
+mem_heap_extra_B=235344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=28308516
+mem_heap_B=1087968
+mem_heap_extra_B=243984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=29088477
+mem_heap_B=1113888
+mem_heap_extra_B=250464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=29608519
+mem_heap_B=1131168
+mem_heap_extra_B=254784
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1131168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 461536 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 173536 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n3: 461504 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 173504 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4112 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=30388527
+mem_heap_B=1157088
+mem_heap_extra_B=261264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=30908569
+mem_heap_B=1174368
+mem_heap_extra_B=265584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=31688530
+mem_heap_B=1200288
+mem_heap_extra_B=272064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=32728614
+mem_heap_B=1234848
+mem_heap_extra_B=280704
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=33508622
+mem_heap_B=1260768
+mem_heap_extra_B=287184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=34028664
+mem_heap_B=1278048
+mem_heap_extra_B=291504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=34808625
+mem_heap_B=1303968
+mem_heap_extra_B=297984
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1303968 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 547936 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 259936 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n3: 547904 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 259904 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4112 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=35328667
+mem_heap_B=1321248
+mem_heap_extra_B=302304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=36108675
+mem_heap_B=1347168
+mem_heap_extra_B=308784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=36629040
+mem_heap_B=1364512
+mem_heap_extra_B=313120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=37412714
+mem_heap_B=1386656
+mem_heap_extra_B=318656
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1386656 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 589280 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 301280 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n3: 589248 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 301248 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4112 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=37934036
+mem_heap_B=1398880
+mem_heap_extra_B=321712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=38456879
+mem_heap_B=1409824
+mem_heap_extra_B=324448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=38977647
+mem_heap_B=1419808
+mem_heap_extra_B=326944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=39497811
+mem_heap_B=1429088
+mem_heap_extra_B=329264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=40018897
+mem_heap_B=1437728
+mem_heap_extra_B=331424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=40540750
+mem_heap_B=1445920
+mem_heap_extra_B=333472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=41064679
+mem_heap_B=1453728
+mem_heap_extra_B=335424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=41586998
+mem_heap_B=1461152
+mem_heap_extra_B=337280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=42113807
+mem_heap_B=1468320
+mem_heap_extra_B=339072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=42634265
+mem_heap_B=1475168
+mem_heap_extra_B=340784
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1475168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 633536 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 345536 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n3: 633504 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 345504 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4112 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=43160447
+mem_heap_B=1481760
+mem_heap_extra_B=342432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=43685972
+mem_heap_B=1488160
+mem_heap_extra_B=344032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=44207097
+mem_heap_B=1494304
+mem_heap_extra_B=345568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=44732839
+mem_heap_B=1500320
+mem_heap_extra_B=347072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=45262368
+mem_heap_B=1506208
+mem_heap_extra_B=348544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=45782734
+mem_heap_B=1511840
+mem_heap_extra_B=349952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=46304524
+mem_heap_B=1517344
+mem_heap_extra_B=351328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=46826521
+mem_heap_B=1522720
+mem_heap_extra_B=352672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=47348000
+mem_heap_B=1527968
+mem_heap_extra_B=353984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=47868100
+mem_heap_B=1533088
+mem_heap_extra_B=355264
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1533088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 662496 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 374496 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n3: 662464 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 374464 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4112 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=48399557
+mem_heap_B=1538208
+mem_heap_extra_B=356544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=48928358
+mem_heap_B=1543200
+mem_heap_extra_B=357792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=49453841
+mem_heap_B=1548064
+mem_heap_extra_B=359008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=50031176
+mem_heap_B=1552160
+mem_heap_extra_B=360040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=50104521
+mem_heap_B=1576160
+mem_heap_extra_B=372040
+mem_stacks_B=0
+heap_tree=peak
+n7: 1576160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 672000 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 384000 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n3: 672000 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 384000 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 23984 0x401BBE: relabelToFront (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 23984 0x4012F6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4160 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=75
+#-----------
+time=50624682
+mem_heap_B=1576176
+mem_heap_extra_B=372048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=51144737
+mem_heap_B=1576160
+mem_heap_extra_B=372040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=51664917
+mem_heap_B=1576176
+mem_heap_extra_B=372048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=52185009
+mem_heap_B=1576176
+mem_heap_extra_B=372048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=52705209
+mem_heap_B=1576176
+mem_heap_extra_B=372048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=53225312
+mem_heap_B=1564592
+mem_heap_extra_B=366256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=53745486
+mem_heap_B=1552176
+mem_heap_extra_B=360048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=54265574
+mem_heap_B=1552160
+mem_heap_extra_B=360040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=54785618
+mem_heap_B=1552160
+mem_heap_extra_B=360040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=55305840
+mem_heap_B=1552176
+mem_heap_extra_B=360048
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1552176 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 672000 0x40151C: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 384000 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n3: 672000 0x40153B: addEdge (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 384000 0x4012D6: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 192000 0x401267: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 96000 0x401332: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n1: 108016 0x4014E3: createGraph (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+  n0: 108016 0x4010F1: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401140: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 48000 0x401163: main (in /home/jcoutinho/IST/ASA/Projeto2/proj2)
+ n0: 4160 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=85
+#-----------
+time=55825944
+mem_heap_B=1580224
+mem_heap_extra_B=372032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=56345994
+mem_heap_B=1580240
+mem_heap_extra_B=372040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=56866073
+mem_heap_B=1580240
+mem_heap_extra_B=372040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=58788053
+mem_heap_B=1556192
+mem_heap_extra_B=360024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=59308126
+mem_heap_B=1098624
+mem_heap_extra_B=245632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=59828195
+mem_heap_B=648832
+mem_heap_extra_B=133184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=60348272
+mem_heap_B=199040
+mem_heap_extra_B=20736
+mem_stacks_B=0
+heap_tree=empty
