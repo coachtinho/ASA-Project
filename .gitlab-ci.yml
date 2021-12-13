@@ -6,9 +6,9 @@ before_script:
 project1:
   script:
     - cd Projeto1/student-tests && ./all.sh ../proj1
-    - cd Projeto1/testes-relatorio && ./all.sh ../proj1
+    - cd ../testes-relatorio && ./all.sh ../proj1
 
 project2:
   script:
     - cd Projeto2/tests && ./all.sh ../proj2
-    - cd Projeto2/testes-relatorio && ./all.sh ../proj2
+    - cd ../testes-relatorio && ./all.sh ../proj2
