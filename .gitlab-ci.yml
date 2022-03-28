@@ -1,14 +1,22 @@
 image: "gcc"
 
-before_script:
-  - make
+make:
+  stage: build
+  script:
+    - make
+  artifacts:
+    paths:
+      - Projeto1/proj1
+      - Projeto2/proj2
 
 project1:
+  stage: test
   script:
     - cd Projeto1/student-tests && ./all.sh ../proj1
     - cd ../testes-relatorio && ./all.sh ../proj1
 
 project2:
+  stage: test
   script:
     - cd Projeto2/tests && ./all.sh ../proj2
     - cd ../testes-relatorio && ./all.sh ../proj2
