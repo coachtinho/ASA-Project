@@ -33,7 +33,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: proj1
-          path: Projeto1/proj1
+          path: Projeto1
       - name: Run student tests
         run: cd Projeto1/student-tests && ./all.sh ../proj1
       - name: Run report tests
@@ -48,7 +48,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: proj2
-          path: Projeto2/proj2
+          path: Projeto2
       - name: Run student tests
         run: cd Projeto2/student-tests && ./all.sh ../proj2
       - name: Run report tests
