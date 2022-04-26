@@ -39,7 +39,7 @@ jobs:
       - name: Run student tests
         run: cd Projeto1/student-tests && ./all.sh ../proj1
       - name: Run report tests
-        run: cd ../testes-relatorio && ./all.sh ../proj1
+        run: cd Projeto1/testes-relatorio && ./all.sh ../proj1
  
   project2:
     runs-on: ubuntu-latest
@@ -54,6 +54,6 @@ jobs:
       - name: Update permissions
         run: chmod +x Projeto2/proj2
       - name: Run student tests
-        run: cd Projeto2/student-tests && ./all.sh ../proj2
+        run: cd Projeto2/tests && ./all.sh ../proj2
       - name: Run report tests
-        run: cd ../testes-relatorio && ./all.sh ../proj2
+        run: cd Projeto2/testes-relatorio && ./all.sh ../proj2
