@@ -34,6 +34,8 @@ jobs:
         with:
           name: proj1
           path: Projeto1
+      - name: Update permissions
+        run: chmod +x Projeto1/proj1
       - name: Run student tests
         run: cd Projeto1/student-tests && ./all.sh ../proj1
       - name: Run report tests
@@ -49,6 +51,8 @@ jobs:
         with:
           name: proj2
           path: Projeto2
+      - name: Update permissions
+        run: chmod +x Projeto2/proj2
       - name: Run student tests
         run: cd Projeto2/student-tests && ./all.sh ../proj2
       - name: Run report tests
