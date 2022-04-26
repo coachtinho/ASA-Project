@@ -1,0 +1,53 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Make
+        run: make
+      - name: Upload project 1
+        uses: actions/upload-artifacts@v3
+        with:
+          name: proj1
+          path: Projeto1/proj1
+      - name: Upload project 2
+        uses: actions/upload-artifacts@v3
+        with:
+          name: proj2
+          path: Projeto2/proj2
+        
+  project1:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Download project 1
+        uses: actions/download-artifact@v3
+        with:
+          name: proj1
+      - name: Run student tests
+        run: cd Projeto1/student-tests && ./all.sh ../proj1
+      - name: Run report tests
+        run: cd ../testes-relatorio && ./all.sh ../proj1
+ 
+  project2:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Download project 2
+        uses: actions/download-artifact@v3
+        with:
+          name: proj2
+      - name: Run student tests
+        run: cd Projeto2/student-tests && ./all.sh ../proj2
+      - name: Run report tests
+        run: cd ../testes-relatorio && ./all.sh ../proj2
