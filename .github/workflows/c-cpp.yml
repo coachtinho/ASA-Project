@@ -19,7 +19,7 @@ jobs:
           name: proj1
           path: Projeto1/proj1
       - name: Upload project 2
-        uses: actions/upload-artifacts@v3
+        uses: actions/upload-artifact@v3
         with:
           name: proj2
           path: Projeto2/proj2
