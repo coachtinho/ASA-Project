@@ -14,7 +14,7 @@ jobs:
       - name: Make
         run: make
       - name: Upload project 1
-        uses: actions/upload-artifacts@v3
+        uses: actions/upload-artifact@v3
         with:
           name: proj1
           path: Projeto1/proj1
